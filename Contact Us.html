@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="CSS/Style.css">
+        <script>
+            function validateForm() {
+              let x = document.forms["myForm"]["fname"].value;
+              if (x == "") {
+                alert("Name must be filled out");
+                return false;
+              }
+            }
+            </script>
+
+    </head>
+    <body>
+        <header>
+            <table id="myTable">
+                <tr>
+                    <td><img class="logo" src="Assets/Pictures/free-logos.png"></td>
+                    <td>
+                        <nav>
+                            <a href="Index.html">Home</a>
+                            <a href="About me.html">About me</a>
+                            <a href="#">Contact us</a>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </header><br>
+        <main>
+            <table>
+                <tr>
+                    <td>Phone Number: 0797154666</td>
+
+                </tr>
+
+            </table><br>
+            <p>I'm currently residing at Limpopo, Moletjie ga Ramphele. The city is Polokwane.</p>
+
+            <form name="myForm" action="https://formspree.io/f/mvoldrgn" onsubmit="return validateForm()" method="post">
+                <label for="email">Your Email</label><br>
+                <input name="Email" id="email" type="email" required><br><br>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="name" value="" required><br><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text"  id="lname"  name="name" value="" required><br><br>
+                <label for="textarea">Textarea</label><br>
+                <textarea name="message" style="width:300px; height:90px;"></textarea><br>
+                <button type="submit">Submit</button>
+              </form>
+        </main>
+        <br>
+        
+        
+        <footer>
+            <p class="footerText">
+
+                @Syre.intern
+
+            </p><br>
+            <p>
+            
+                <a href="https://www.google.com/" class="lft" style="align-items: center;">GooGle</a>
+                <a href="https://www.facebook.com/profile.php?id=100061480429166" class="lft" style="align-items: center;">facebook</a>
+            
+            </p>
+
+            
+        </footer>
+
+                   
+
+
+              
+    
+    </body>
+</html>

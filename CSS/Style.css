@@ -1,0 +1,83 @@
+
+.logo {
+    width: 50px;
+    size: 15px;
+    border-radius: 10px;
+    padding: 1px;
+    
+}
+nav {
+    text-align: right;
+    padding-right: 16px;
+    margin-right: 16px;
+
+}
+#myHeader {
+    width: 100%;
+    background-color: gray;
+    
+}
+#myTable {
+    width: 100%;
+    background-color: aqua;
+}
+a {
+    color:black;
+    margin-right: 16px;
+    
+}
+video {
+    width: 100%;
+}
+#mainTable {
+    width: 100%;
+
+}
+#userImage {
+    width: 500px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.infoBox {
+
+    text-align: left;
+    width: 70%;
+
+    
+
+}
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerText {
+    text-align: center;
+    color: crimson;
+    
+}
+footer {
+    background-color: black;
+    margin: 15px;
+    padding: 25px;
+    border-bottom: 10px;
+
+}
+.lft {
+    text-align: center;
+    color: crimson;
+}
+body{
+    background-color:gray;
+    background-image: url('Assets/Pictures/selfiecamera_2022-03-20-14-39-42-685.jpg');
+    background-repeat: no-repeat;
+}
+.ppStep {
+    font-family: cursive;
+    color: tomato;
+
+}
